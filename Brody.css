@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+body, html {
+    padding:0;
+    margin:0;
+}
+body {
+    background-image:url(forest.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    font-family:'julius sans one';
+    color:white;
+
+}
+h1 {
+	text-align: center;
+	}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	}
+#header {
+    padding-top:22%;
+    margin-bottom:25%;
+      animation: fadein 1s;
+	text-align: center;
+}
+#button1 {
+    background-color:transparent;
+    color: #000000;
+    transition-duration:0.4s;
+    cursor:pointer;
+    font-family:'julius sans one';
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:.5%;
+    padding-bottom:.5%;
+    font-size:16px;
+    border:solid 2px #000000;
+    margin:10px;
+}
+#button1:hover {
+    background-color:black;
+    color:white;
+    border-color:black;
+}
+#content1 {
+    background-color:white;
+    color:black;
+    height:700px;
+    padding-top:2%;
+    padding-bottom:2%;
+	text-align: center;
+}
+#break {
+    background-image:url(forest.jpg);
+    height: 200px;
+}
+#button2 {
+    background-color:white;
+    color:black;
+    border:solid 2px black;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:.5%;
+    padding-top:.5%;
+    font-size:16px;
+    cursor:pointer;
+    transition-duration:0.4s;
+    font-family:'julius sans one'
+	text-align: center;
+}
+#button2:hover {
+    background-color:black;
+    color:white;
+    border-color:black;
+    float:none;
+}
+#navbar {
+    color:black;
+    text-align:right;
+    text-decoration:none;
+    list-style-type:none;
+    background-color:white;
+}
+#home, #gandhi, #table, #earth {
+    float:left;
+    margin-left:25px;
+    margin-top:30px;
+    cursor:pointer;
+    transition-duration:0s;
+}
+#home:hover, #gandhi:hover, #table:hover, #earth:hover {
+    color:red;
+}
+.ative {
+    border:solid 1px white;
+    border-radius:4px;
+    padding-top:1.5px;
+    padding-bottom:1.5px;
+    padding-left:1.5px;
+    padding-right:1.5px;
+}
+#content2 {
+    background-color:white;
+    color:black;
+    height:950px;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+button {
+    text-decoration:none;
+    color:inherit;
+}
+
+#navbar-bgr {
+    background-color:white;
+    position:fixed;
+    height:90px;
+    color:black;
+    width:2000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration:0s;
+}
+.navbar-scrolled {
+    background-color:white;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+p {
+	text-align: center;
+	font-size: 18px;
+	margin: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+table {
+	font-size: 15pt;
+}
+th {
+	text-align: center;
+}
+td:hover {
+	color: white;
+}
+
+
+
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li{
+	margin: 0;
+	padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	width: 28px;
+    height: 28px;
+	color: #ffffff;
+	background-color: #000000;
+	padding-top: 12px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+}
+
+.socialbtns .fa:hover {
+	transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+}

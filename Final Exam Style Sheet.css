@@ -1,0 +1,83 @@
+header {
+		text-align: center;
+		color: #000000;
+		padding: 10px;
+		width: 80%;
+		height: 100px;
+		border: ridge #000000 3px;
+		margin: auto;
+		margin-bottom: 25px;
+		font-family: script;
+		text-shadow: 7px 7px 5px #999999;
+		background: -webkit-linear-gradient(top, #ff7353, #ff9881);
+		background: -ms-linear-gradient(top, #ff7353, #ff9881);
+		background: -moz-linear-gradient(top, #ff7353, #ff9881);
+		background: -o-linear-gradient(top, #ff7353, #ff9881);
+		}
+nav {
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+	width: 78.5%;
+	height: 20px; 
+	font-style: 
+	color: #ffffff;
+	border: ridge #000000 3px;
+	background: -webkit-linear-gradient(top, #ff9881, #ffb7a7);
+	background: -ms-linear-gradient(top, #ff9881, #ffb7a7);
+	background: -moz-linear-gradient(top, #ff9881, #ffb7a7);
+	background: -o-linear-gradient(top, #ff9881, #ffb7a7);
+	}
+article {
+	width: 550px;
+	height: 650px;
+	margin: auto;
+	margin-top: 25px;
+	background: -webkit-linear-gradient(top, #ffaf9c, #ffffff, #8daac6, #336699);
+	background: -ms-linear-gradient(top, #ffaf9c, #ffffff, #8daac6, #336699);
+	background: -moz-linear-gradient(top, #ffaf9c, #ffffff, #8daac6, #336699);
+	background: -o-linear-gradient(top, #ffaf9c, #ffffff, #8daac6, #336699);
+	border: ridge #000000 3px;
+	}
+a {
+	color: #ffffff;
+	margin: auto;
+	}
+a:hover {
+	color: #000000;
+	background-color: 
+	}
+a:visited {
+	color: #000000;
+	background-color: 
+	}
+body {
+	background: -webkit-linear-gradient(top, #ff7353, #ffffff, #336699);
+	background: -moz-linear-gradient(top, #ff7353, #ffffff, #336699);
+	background: -ms-linear-gradient(top, #ff7353, #ffffff, #336699);
+	background: -o-linear-gradient(top, #ff7353, #ffffff, #336699);
+	font-family: Arial;
+	color: #000000;
+	}
+p {
+	text-align: center;
+	padding: 10px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+	}
+ul {
+	list-style-type: disc;
+	}
+img {
+	width: 250px;
+	height: 300px;
+	border: solid #000000 2px;
+	-ms-filter: drop-shadow(16px 16px 1px #999999);
+    -moz-filter: drop-shadow(16px 16px 1px #999999);
+    -webkit-filter: drop-shadow(16px 1px 10px #999999);
+    -o-filter: drop-shadow(16px 16px 1px #999999);
+	}
+h2{
+	text-shadow: 7px 7px 5px #999999;
+	}
